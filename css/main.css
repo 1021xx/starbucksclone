@@ -1,4 +1,3 @@
-
 /* VISUAL */
 .visual {
   margin-top: 120px;
@@ -48,7 +47,6 @@
 .visual .fade-in {
   opacity: 0;
 }
-
 
 /* NOTICE */
 .notice .notice-line {
@@ -250,7 +248,6 @@
   color: #fff;
 }
 
-
 /* REWARDS */
 .rewards {
   position: relative;
@@ -296,7 +293,6 @@
   flex-grow: 1;
   /* 나머지는 0인데 최대한 늘어나라고 flex-grow 속성을 추가해줌 */
 }
-
 
 /* YOUTUBE VIDEO */
 .youtube {
@@ -365,19 +361,30 @@
 /* SEASON PRODUCT */
 .season-product {
   background-image: url("../images/season_product_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .season-product .inner {
-  height: 400px;
+  height: 572px;
 }
 .season-product .floating3 {
   position: absolute;
   top: -200px;
   right: 0;
 }
+.season-product .season-item {
+  position: absolute;
+  top: 55px;
+  left: 100px;
+}
 .season-product .text-group {
   position: absolute;
-  top: 110px;
-  right: 100px;
+  top: 150px;
+  right: 120px;
+}
+.season-product .text-group .more {
+  margin: 40px 0;
 }
 .season-product .text-group .title {
   margin-bottom: 10px;
@@ -409,7 +416,6 @@
   right: 0;
 }
 
-
 /* PICK YOUR FAVERITE */
 .pick-your-faverite {
   background-image: url(../images/favorite_bg.jpg);
@@ -435,7 +441,6 @@
 .pick-your-faverite .text-group .description {
   margin-bottom: 40px;
 }
-
 
 /* RESERVE STOR */
 .reserve-store {
@@ -484,7 +489,6 @@
   margin: auto;
 }
 
-
 /*FIND STORE*/
 .find-store {
   background-image: url("../images/find_store_bg.jpg");
@@ -504,12 +508,12 @@
 }
 .find-store .picture {
   border-radius: 50%;
-  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
 }
 .find-store .picture1 {
   top: -60px;
   left: 0;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .find-store .picture2 {
   top: 150px;
@@ -526,7 +530,6 @@
 .find-store .text-group .description {
   margin-bottom: 20px;
 }
-
 
 /*AWARDS*/
 .awards {
@@ -569,7 +572,6 @@
   background-color: #fff;
   color: #333;
 }
-
 
 /*SCROLL TO TOP*/
 #to-top {
